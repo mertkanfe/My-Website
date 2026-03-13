@@ -23,12 +23,19 @@ Bu proje, modern web teknolojileri kullanılarak geliştirilmiş, kullanıcı do
 
 ## 📸 Ekran Görüntüleri
 
+### 🏠 Hakkımda (About Me)
 
 ![🏠 Hakkımda (About Me)](screenshots/about.png)
 
+### 💼 Deneyim (Experience)
+
 ![💼 Deneyim (Experience)](screenshots/experience.png)
 
+### 🚀 Projeler (Projects)
+
 ![🚀 Projeler (Projects)](screenshots/projects.png)
+
+### ✉️ İletişim (Contact)
 
 ![✉️ İletişim (Contact)](screenshots/contact.png)
 
