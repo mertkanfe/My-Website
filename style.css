@@ -152,19 +152,27 @@ section{
 .btn{
     border-radius: 3rem;
     padding: 0.5rem 1.5rem;
-    border: 2px solid black;
+    border: 2px solid var(--text-color); /* Siyah yerine değişken yapıldı */
+    background-color: transparent;
+    color: var(--text-color); /* Linklerin mavi olmasını engeller */
     cursor: pointer;
     font-weight: 500;
     text-wrap: nowrap;
     transition: 0.2s ease-in-out;
+    display: inline-block;
 }
 .btn:hover{
-    background-color: black;
-    color: white;
+    background-color: var(--text-color);
+    color: var(--bg-color) !important; /* Üzerine gelince yazı ters renge döner */
 }
 .socials{
     display: flex;
     gap: 2rem;
+}
+.socials a{
+    color: var(--text-color); /* İkonların mavi olmasını tamamen engeller */
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
 }
 .socials i{
     font-size: 2.5rem;
