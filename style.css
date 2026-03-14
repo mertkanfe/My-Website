@@ -81,6 +81,8 @@ li a:hover::before{
     width: 100%;
 }
 .visit-btn{
+    display: inline-block;
+    text-decoration: none;
     padding: 0.8rem 1.5rem;
     border-radius: 3rem;
     border: none;
@@ -91,6 +93,10 @@ li a:hover::before{
     text-wrap: nowrap;
     transition: 0.3s ease-in-out;
     background: linear-gradient(to right, rgb(0, 157, 255), rgb(255, 0, 255));
+}
+.visit-btn a {
+    color: white;
+    text-decoration: none;
 }
 .visit-btn:hover{
     background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
