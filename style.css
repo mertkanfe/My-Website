@@ -280,7 +280,7 @@ section{
 }
 .project-card:hover .btn:hover{
     border: 2px solid white;
-    background-color: white;
+    background-color: rgb(132, 238, 70);
     color: black;
 }
 .project-card h3{
